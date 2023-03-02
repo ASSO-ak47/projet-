@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    padding: 0;
+    margin: 0;
+    display: grid;
+    box-sizing: border-box;
+    background-color:lightblue;
+}
+
+
+.container{
+    position: relative;
+    margin: 80px;
+    min-height: 1000px ;
+    box-shadow: 0px 0px 30px;
+    border: 2px rgb(101, 96, 96) solid;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 1000px;
+  
+
+}
+
+
+            /* DEBUIT DE LA PARTIE 1 */
+
+.div1{ 
+    background-color: rgb(163, 167, 169);
+    box-sizing: border-box;
+   
+}
+
+.div1 .img1 img
+{
+    position: relative;
+    border-radius:100% ;
+    height: 200px;
+    width: 190px;
+ 
+}
+
+
+
+
+.text1 h2
+{   text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom:2px black solid ;
+   
+}
+.text1 h2 span
+{
+
+font-size: 1.5rem;
+
+}
+
+
+.contact ul li
+{  
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+   
+}
+
+.contact ul li img{
+
+   
+width: 38px;
+height: 38px;
+padding: 8px;
+
+margin-bottom: 14px;
+
+
+}
+.contact h3{
+   
+    text-align: center;
+    font-size: 1.8rem;
+   
+}
+
+
+h4{
+    color: rgb(0, 51, 109);
+    font-size: 1.4rem;
+}
+
+.Langue-1 .pourcen{
+
+    position: relative;
+    width: 100%;
+    height: 9px;
+    background-color: rgb(5, 5, 5);
+    display: block;
+    border-radius: 3px;
+    margin-top: 5px;
+   
+}
+
+
+
+.Langue-1 .pourcen div{
+
+    position: relative;
+    top:0;
+    left:0;
+    height: 100%;
+    background-color:rgb(11, 134, 187);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+
+
+.btn {
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 6px 9px;
+
+    
+    
+  }
+
+
+  span{
+    height: 188px;
+    margin-bottom: 8px;
+    margin-left:0px ;
+    margin: right 6px;
+  }
+  
+  .btn:hover {
+    background-color: #12ad60; 
+    color: white;
+ 
+  }
+
+
+
+
+            /* DEBUIT DE LA PARTIE 2 */
+
+
+
+
+
+.div2
+{
+    background-color: rgb(210, 231, 241);
+    padding: 40px;
+   
+}
+
+.text2{
+
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+
+.profile h5{
+
+    font-size: 1.3rem;
+}
+
+
+
+.skill ul li
+{  position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+   
+}
+
+
+.skill .pourcen{
+
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(5, 5, 5);
+    display: block;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 4PX;
+}
+
+
+
+.skill .pourcen div{
+
+    position: relative;
+    top:0;
+    left:0;
+    height: 100%;
+    background-color:rgb(11, 134, 187);
+    border-radius: 10px;
+}
+
+        /*  FIN DE LA PARTIE 2 */
